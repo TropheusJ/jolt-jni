@@ -509,7 +509,7 @@ publishing {
                 password = project.hasProperty('centralPassword') ? centralPassword : 'Unknown password'
             }
             name = 'Central'
-            url = 'https://ossrh-staging-api.central.sonatype.com/service/local/staging/deploy/maven2/'
+            url = 'https://mvn.devos.one/snapshots'
         }
     }
 }
